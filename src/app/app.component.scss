@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  &__table {
+    margin-top: 18px;
+    border-radius: 8px;
+    min-width: 70%;
+  }
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.active-link {
+  background-color: #ffd9e1;
+}

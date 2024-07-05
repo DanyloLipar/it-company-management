@@ -1,0 +1,32 @@
+<div class="container">
+  <h2>{{ isEditMode ? "Edit Employee" : "Add Employee" }}</h2>
+  <form (ngSubmit)="onSubmit()" class="example-form container__form">
+    <mat-form-field class="example-full-width">
+      <input
+        matInput
+        placeholder="Name"
+        id="name"
+        name="name"
+        [(ngModel)]="employee.name"
+        required
+      />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <input
+        matInput
+        placeholder="Email"
+        type="email"
+        id="email"
+        name="email"
+        [(ngModel)]="employee.email"
+        required
+      />
+    </mat-form-field>
+    <div class="button-container">
+      <button mat-raised-button color="primary" type="submit">
+        {{ isEditMode ? "Update" : "Add" }}
+      </button>
+      <button mat-button color="warn" routerLink="/employees">Cancel</button>
+    </div>
+  </form>
+</div>

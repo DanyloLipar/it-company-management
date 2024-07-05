@@ -1,0 +1,5 @@
+[
+  { "id": 1, "type": "Laptop", "description": "MacBook Pro" },
+  { "id": 2, "type": "Monitor", "description": "Dell 27-inch" },
+  { "id": 3, "type": "Keyboard", "description": "Logitech Wireless Keyboard" }
+]

@@ -1,0 +1,17 @@
+.devices-table {
+  &__link {
+    cursor: pointer;
+
+    &:hover {
+      color: violet;
+    }
+  }
+
+  &__item {
+    margin-top: 10px;
+  }
+}
+
+.mat-select {
+  border-left: 1px solid black;
+}

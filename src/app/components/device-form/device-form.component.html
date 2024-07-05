@@ -1,0 +1,32 @@
+<div class="container">
+  <h4>{{ isEditMode ? "Edit Device" : "Add Device" }}</h4>
+  <form (ngSubmit)="onSubmit()" class="example-form container__form">
+    <mat-form-field class="example-full-width">
+      <input
+        matInput
+        placeholder="type"
+        id="type"
+        name="type"
+        [(ngModel)]="device.type"
+        required
+      />
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <input
+        matInput
+        placeholder="description"
+        type="description"
+        id="description"
+        name="description"
+        [(ngModel)]="device.description"
+        required
+      />
+    </mat-form-field>
+    <div class="button-container">
+      <button mat-raised-button color="primary" type="submit">
+        {{ isEditMode ? "Update" : "Add" }}
+      </button>
+      <button mat-button color="warn" routerLink="/devices">Cancel</button>
+    </div>
+  </form>
+</div>
