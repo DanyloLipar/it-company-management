@@ -1,27 +1,29 @@
-# ItCompanyInventory
+# IT Company Inventory App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.6.
+[DEMO](https://it-company-management.vercel.app/)
 
-## Development server
+**About**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+IT Company Inventory App is a web application where you could find the list of employees and devices. You can search for needed employee or device and also you could add, edit, delete employees and device. Device can be linked to any employee who works in company.
 
-## Code scaffolding
+**Features**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Searching for employees and devices, create, update, delete operations with data
+Link device to employee
+Visual representation of data and results
 
-## Build
+**Technologies stack** 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Angular, Reactive State Management - RxJS, NGRx, Angular Material
 
-## Running unit tests
+**How to run**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Clone this repo to your local machine.
+Navigate to project derictory and open it in code editor.
+Open terminal and run this commands:
 
-## Running end-to-end tests
+- npm install
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- ng serve
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+App should start on http://localhost:4200/
